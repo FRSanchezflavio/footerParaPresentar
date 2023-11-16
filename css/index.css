@@ -1,0 +1,55 @@
+.footer{
+    padding-top: 10px;
+    background-color: #121213;
+    color: white;
+}
+.footerlogo{ 
+    width: 260px;
+    height: 300px;
+    background: url("../img/berretech_logo_white_transparent.png");
+    background-size: cover;
+
+}
+.footerlogo:hover {
+    width: 260px;
+    height: 300px;
+    background: url(../img/berretech_logo_blue-light.png);
+    background-size: cover;
+    transition: all 0.20s ease-in;
+}
+
+footer ul{
+    list-style: none;
+}
+footer li{
+        font-size: 25px;
+        margin-bottom: 10px;
+        cursor: pointer;
+}
+footer li:hover{
+        color: #2D9BF0;
+        transition: all 0.20s ease-in;
+}
+footer li:hover path{
+    fill:#2D9BF0;
+    cursor: pointer;
+    transition: all 0.20s ease-in;
+}
+.logo{
+    width: 250px;
+    text-align: right;
+}
+.contenedor-redes{
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.redes{
+    width: 80px;
+}
+.instagram{
+    width: 55px;
+}
+.copyright{
+    text-align: center;
+}
